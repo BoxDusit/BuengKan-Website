@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>การท่องเที่ยวจังหวัดบึงกาฬ</title>
+  <link rel="stylesheet" href="/public/asset/style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,500&family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #000500;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://fridayvacation.com//pic/163/8.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 13px;
+    transition: 0.5s;
+}
+nav ul li .active{
+    border-bottom: solid 2px #fff;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #ffff;
+    font-size: 100px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+p{
+    color: #ffff;
+    font-size: 13px;
+    line-height: 15px;
+    transition: 0.5s;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #ffff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card{
+    width: 210px;
+    height: 240px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card-1{
+    background-image: url('https://fridayvacation.com/pic/163/8.jpg');
+    
+}
+.card-2{
+    background-image: url('asset/บึงกาฬ/istockphoto-1217480873-1024x1024.jpg');
+}
+.card-3{
+    background-image: url('https://www.thailandnow.in.th/wp-content/uploads/2021/07/YxNnqhxO4_payanak-1-01.png');
+}
+.card-4{
+    background-image: url('https://www.chuwab.com/images/hotel/1/03/3803/3803_large_201607081044392.jpg');
+}
+
+.card:hover{
+    transform: translateY(-10px);
+ 
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    
+}
+
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+
+button:hover{
+    width: 178px;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 12px 0;
+    background: none;
+    border: 2px solid #fff;
+    
+}
+h1:hover{
+    transform: translateY(-10px);
+}
+
+nav ul li a:hover{
+    opacity: 25%;
+}
+
+p:hover{
+    transform: translateY(-10px);
+}
+    @media only screen and (max-width:768px){
+      .row{
+        display: flex;
+        flex-direction: column;
+      }
+      .card-image{
+        display: grid;
+        grid-template-columns: 1fr 1fr;;
+        margin-top: 1rem;
+        
+      }
+      .col h1 {
+        font-size: 3rem;
+      }
+     .logo{
+      margin-bottom: 1rem;
+     }
+      
+      .container{
+        height: 100%;
+        width: 100%;
+      }
+      nav{
+        display: none;
+      }
+      .card{
+        width: 170px;
+        height: 200px;
+      }
+    }
+    
+   
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+   <!-- ส่วนเเสดงเนื้อหาเเถบนำทาง -->
+    <div class="navbar">
+    <!-- <img src="" alt="" class="logo"> -->
+    <h1 class="logo" style="font-size: 1rem;">BuengKan</h1>
+    
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">หน้าเเรก</a></li>
+        <li><a href="about.html">ประวัติความเป็นมา</a></li>
+        <li><a href="travel.html">สถานที่ท่องเที่ยว</a></li>
+        <li><a href="Hotel.html">คู่มือการเดินทาง</a></li>
+        <li><a href="contact.html">ผู้จัดทำ</a></li>
+        
+      </ul>
+    </nav>
+    <!-- <img src="" alt="" class="menu-icon"> -->
+    
+   </div>
+
+   <!-- ส่วนเเสดงเนื้อหาหน้าเเรกหรือhome -->
+   <div class="row">
+    <div class="col" >
+      <p>การท่องเที่ยวจังหวัด</p>
+      <h1>บึงกาฬ</h1>
+      <p>บึงกาฬ เป็นจังหวัดที่ตั้งอยู่ในภาคตะวันออกเฉียงเหนือตอนบนสุดของประเทศไทย อยู่ห่างจากกรุงเทพมหานคร 765 กิโลเมตร จัดตั้งขึ้นตามพระราชบัญญัติตั้งจังหวัดบึงกาฬ พ.ศ. 2554 อันมีผลใช้บังคับตั้งแต่วันที่ 23 มีนาคม พ.ศ. 2554 เป็นต้นไป[4] โดยแยกอำเภอบึงกาฬ อำเภอเซกา อำเภอโซ่พิสัย อำเภอบุ่งคล้า อำเภอบึงโขงหลง อำเภอปากคาด อำเภอพรเจริญ และอำเภอศรีวิไล ออกจากการปกครองของจังหวัดหนองคาย จังหวัดบึงกาฬ จัดตั้งเป็นจังหวัดลำดับที่ 76 ของประเทศไทย เป็นจังหวัดท่องเที่ยวเมืองรองที่สำคัญของจังหวัดแถบลุ่มแม่น้ำโขง</p>
+        <a href="about.html"><button type="button">Explore</button></a>
+        
+        
+    </div>
+    <div class="col card-image"style="margin-left: 1rem;">
+     
+      <a href="about.html">
+        <div class="card card-2">
+          <h5 >ประวัติความเป็นมา</h5>
+          <p > ภาคตะวันออกเฉียงเหนือตอนบนสุดของประเทศไทย</p>
+  
+        </div>
+      </a>
+
+      <a href="travel.html">
+        <div class="card card-1">
+          <h5 >สถานที่ท่องเที่ยว</h5>
+          <p> หินสามวาฬ หนึ่งในจุดท่องเที่ยวที่น่าสนใจในพื้นที่ป่าภูสิงห์ในเขตพื้นที่อนุรักษ์</p>
+          
+        </div>
+      </a>
+
+      <a href="travel.html#festival">
+        <div class="card card-3">
+          <h5>ประเพณีจังหวัดบึงกาฬ</h5>
+          <p>บุญบั้งไฟ เป็นประเพณีหนึ่งของภาคอีสานของประเทศไทย</p>
+  
+        </div>
+      </a>
+     
+      <a href="Hotel.html">
+        <div class="card card-4">
+          <h5>คู่มือการเดินทาง</h5>
+          <p> โรงแรม เดอะ วัน บึงกาฬ (The One Hotel Buangkan)</p>
+  
+        </div>
+      </a>
+    </div>
+
+   </div>
+  </div>
+</body>
+ 
+</html>

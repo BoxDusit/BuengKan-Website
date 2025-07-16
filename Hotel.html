@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สถานที่พัก</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,500&family=Poppins:wght@400;500;600&display=swap');
+
+        .title_card {
+            color: rgb(0, 91, 24);
+            font-size: 1.50rem;
+            margin-top: 2rem;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #fff;
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+            padding-left: 8%;
+            padding-right: 8%;
+        }
+
+
+        .navbar {
+            width: 100%;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://fridayvacation.com//pic/163/8.jpg');
+            background-position: 0%;
+            padding-left: 8%;
+            padding-right: 8%;
+            height: 80.64px;
+            display: flex;
+            align-items: center;
+            position: fixed;
+            top: 0%;
+
+        }
+
+        .logo {
+            width: 50px;
+            cursor: pointer;
+            color: #aaa;
+        }
+
+        .menu-icon {
+            width: 30px;
+            cursor: pointer;
+            margin-left: 40px
+        }
+
+        nav {
+            flex: 1;
+            text-align: right;
+        }
+
+        nav ul li {
+            list-style: none;
+            display: inline-block;
+            margin-left: 60px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 13px;
+            transition: 0.5s;
+        }
+
+        nav ul li .active {
+            border-bottom: solid 2px #ffffff;
+        }
+
+        nav ul li a:hover {
+            opacity: 25%;
+        }
+
+
+
+
+
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {
+            float: left;
+            width: 75%;
+        }
+
+        /* Right column */
+        .rightcolumn {
+            float: left;
+            width: 25%;
+
+            padding-left: 20px;
+        }
+
+        /* Fake image */
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Add a card effect for articles */
+        .card {
+            background-color: white;
+
+            margin-top: 10px;
+        }
+
+        /* Clear floats after the columns */
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 10px;
+        }
+
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 800px) {
+
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ส่วนเเสดงเนื้อหาเเถบนำทาง -->
+    <div class="navbar-contain">
+        <div class="navbar">
+            <h1 class="logo" style="font-size: 1rem;">BuengKan</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">หน้าเเรก</a></li>
+                    <li><a href="about.html">ประวัติความเป็นมา</a></li>
+                    <li><a href="travel.html">สถานที่ท่องเที่ยว</a></li>
+                    <li><a href="Hotel.html" class="active">คู่มือการเดินทาง</a></li>
+                    <li><a href="contact.html">ผู้จัดทำ</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- ส่วนเเสดงเนื้อหา -->
+    <div class="container" style="margin-top: 6rem;">
+        <div class="row">
+            
+            <div style=" border-bottom: dashed 3px rgb(10, 137, 54); margin-bottom: 2rem">
+                <h1 style="margin-top: 1rem; text-indent: 2.5em;">คู่มือการเดินทางจังหวัดบึงกาฬ</h1>
+                <small style="margin-left: 6em;">อัพเดตเมื่อวันที่ 27 มกราคม พศ.2567</small>
+                <p style="margin-top: 1rem; margin-bottom: 1rem; text-indent: 2.5em;  ">จังหวัด บึงกาฬ จังหวัดที่ 77
+                    ของประเทศไทย เคยเป็นเขตปกครองส่วนหนึ่งของจังหวัดหนองคาย ซึ่งหลาย ๆ คนคงสงสัยว่า
+                    จังหวัดแห่งนี้ตั้งอยู่ที่ใดของประเทศกันแน่ ทั้งนี้จังหวัดบึงกาฬ
+                    อยู่ทางทิศตะวันออกเฉียงเหนือของหนองคาย มีพื้นที่ติดกับแขวงบริคำไชย สาธารณรัฐประชาธิปไตยประชาชนลาว
+                    มีทั้งหมด 7 อำเภอ ซึ่งแต่ละอำเภอก็มีจุดเด่นในด้านการท่องเที่ยว ขนบธรรมเนียมประเพณี
+                    วัฒนธรรมเป็นของตนเองทั้งสิ้น จึงเป็นเสน่ห์อีกอย่างหนึ่งของจังหวัดบึงกาฬ
+                    หากใครที่มีโอกาสก็ควรจะแวะเวียนไปเที่ยวกันสักครั้ง</p>
+                    <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d485397.29606814065!2d103.38593415039163!3d18.110106513016706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313b301010e902f1%3A0x10100b25de45800!2z4Lia4Li24LiH4LiB4Liy4Lis!5e0!3m2!1sth!2sth!4v1706343004652!5m2!1sth!2sth"
+                width="100%" height="400px" style="border-radius: 10px;;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
+            <!-- เนื้อหาด้านซ้ายมือ -->
+            <div class="">
+                <div class="">
+
+                    <div class="card">
+                        <h2 style="text-align: center;" class="title_card"><span> <i
+                                    class="uil uil-car-sideview"></i></span>เดินทางด้วยรถยนต์ส่วนตัว</h2>
+                        <div class="fakeimg" style="background-image: url('https://konderntang.com/wp-content/uploads/2018/10/maps-how-to-travel-to-buengkarn.jpg'); background-position: center;
+                        background-size: cover;height:500px; border-radius: 20px;"></div>
+
+                        <p style="margin-top: 1rem; text-indent: 2.5em;">
+                            สำหรับการเดินทางไปจังหวัดบึงกาฬ สามารถใช้เส้นทางได้หลายเส้นทาง
+                            แต่เพื่อความสะดวกในการมองเห็นแนวทาง ผู้เขียนขอสรุปแนวทางออกมาเป็น ดังต่อไปนี้
+
+                            1. เดินทางด้วยรถยนต์ส่วนตัว
+                            จากกรุงเทพฯ – บึงกาฬ ใช้เส้นทางหลวงหมาย 1 (พหลโยธิน) เมื่อถึงสระบุรี แยกเข้าทางหลวงหมาย 2
+                            (มิตรภาพ) ผ่านโคราช ขอนแก่น อุดรธานี หนองคาย จนถึงจังหวัดบึงกาฬ รวมระยะทางประมาณ 751
+                            กิโลเมตร</p>
+
+
+                    </div>
+
+
+                    <div class="card">
+                        <h2 style="text-align: center;" class="title_card"><span><i
+                                    class="uil uil-bus-alt"></i></span>เดินทางด้วยรถโดยสารประจำทาง</h2>
+                        <div class="fakeimg" style="background-image: url('https://gogo.town/wp-content/uploads/2022/08/bangkok-mochit-khonglan-bus9-870x555.jpg'); background-position: center;
+                        background-size: cover;height:500px; border-radius: 20px;"></div>
+
+                        <p style="margin-top: 1rem; text-indent: 2.5em;">
+                            มีบริการจาก บริษัท ขนส่ง จำกัด สามารถขึ้นรถได้ที่สถานีขนส่งหมอชิต 2 มีทั้งรถโดยสารแบบธรรมดา
+                            รถโดยสารปรับอากาศ เปิดให้บริการทุกวัน วันละหลายเที่ยว สอบถามรายละเอียดเพิ่มเติมได้ที่ 1490
+                        </p>
+
+
+                    </div>
+
+                    <div class="card">
+                        <h2 style="text-align: center;" class="title_card"><span> <i
+                                    class="uil uil-book-open"></i></span>ที่พักจังหวัดบึงกาฬ</h2>
+
+                        <p style="margin-top: 1rem; text-indent: 2.5em;">
+                            เมื่อทราบถึงวิธีการเดินทางมาท่องเที่ยวที่จังหวัดบึงกาฬกันคร่าว ๆ แล้ว
+                            สิ่งที่ขาดไม่ได้ก่อนการเดินทางก็คือที่พัก หาที่พักกันไว้ก่อนเพื่อความอุ่นใจอย่างน้อย ๆ
+                            ไปถึงแล้วเราก็ยังมีที่หลับที่นอน เอาไว้วางแผนเที่ยวในวันต่อไป
+                            ตรวจสอบและเปรียบเทียบราคาที่พักจังหวัดบึงกาฬ
+                            เราได้เปรียบเทียบราคาจากทุกเว็บที่ให้บริการทั่วโลกแล้ว เพื่อให้ได้ราคาที่ดีที่สุดตลอดเวลา
+                            ไม่ต้องรอโปรโมชั่น คลิกเลย : <a href="https://booking.konderntang.com/">https://booking.konderntang.com/</a></p>
+
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+            <!-- เนื้อหาด้านขวามือ -->
+
+
+        </div>
+        <footer style="margin-top: 5rem; border-top: 2px solid black; margin-bottom: 3rem;">
+            <p style=" margin-top: 1rem; text-align: center; color: rgb(0, 0, 106);"><b>โครงงานเว็บไซต์
+                    การท่องเที่ยวจังหวัดบึงกาฬ <br>ปีการศึกษา2566 </b></p>
+
+        </footer>
+
+    </div>
+
+
+</body>
+
+</html>
