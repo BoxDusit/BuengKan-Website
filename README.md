@@ -18,7 +18,7 @@ EN: This website provides information on tourism in Bueng Kan Province, located 
 
 | Type                                 | Tools & Frameworks                                           |
 |--------------------------------------|--------------------------------------------------------------|
-| Frontend                             | HTML5, CSS3, JavaScript                                      |
+| Frontend                             | HTML5, CSS3                                                  |
 | Design Tools                         | Figma                                                        |
 
 
